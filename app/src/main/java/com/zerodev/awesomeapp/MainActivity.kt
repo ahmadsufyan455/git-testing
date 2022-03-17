@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // add magic
+        // add magic here
         val firstNumber = binding.num1.text
         val secondNumber = binding.num2.text
 
