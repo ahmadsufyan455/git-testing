@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val firstNumber = binding.num1.text
         val secondNumber = binding.num2.text
 
+        // add another magic
         binding.btnCalculate.setOnClickListener {
             val result = firstNumber.toString().toInt() + secondNumber.toString().toInt()
             binding.tvResult.text = result.toString()
