@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             application, BuildConfig.APP_SECRET,
             Analytics::class.java, Crashes::class.java
         )
+        Analytics.trackEvent("My custom event")
 
         // add magic here
         val firstNumber = binding.num1.text
